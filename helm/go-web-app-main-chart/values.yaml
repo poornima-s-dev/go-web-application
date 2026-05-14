@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: poornima2208/go-web-app-main
   pullPolicy: IfNotPresent
-  tag: "25875181645"
+  tag: "25877037194"
 
 ingress:
   enabled: false
