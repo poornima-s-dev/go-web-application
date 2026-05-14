@@ -12,6 +12,9 @@ on:
       - 'k8s/**'
       - 'README.md'
 
+permissions:
+  contents: write 
+  
 jobs:
 
   build:
