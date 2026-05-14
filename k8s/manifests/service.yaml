@@ -1,0 +1,21 @@
+# Service for the application
+
+apiVersion: v1
+
+kind: Service
+
+metadata:
+  name: go-web-app-main
+  labels:
+    app: go-web-app-main
+
+spec:
+  selector:
+    app: go-web-app-main
+
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+
+  type: ClusterIP
